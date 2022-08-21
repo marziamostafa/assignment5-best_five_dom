@@ -89,7 +89,8 @@
             <div class="w-1/4">
                 <div class="bg-gray-800 text-white  text-center mb-5 pb-8">
                     <div class="pb-4">
-                        <h1 class="text-3xl pb-8 pt-4 font-medium ">Selected-V</h1>
+                        <h1 class="text-3xl pt-4 font-medium ">Selected-V</h1>
+                        <img class="float-middle pb-8 pl-8 ml-4" src="images/Ureg-Ureg Marker.png" alt="">
                         <ol>
                             <li>1.Lionel Messi</li>
                             <li>2.Neymar Jr</li>
@@ -101,12 +102,22 @@
                 </div>
                 <div class="bg-gray-800 text-white text-center mb-5 pb-8 ">
                     <div>
-                        <h1 class="text-3xl font-medium  pb-8">Budget</h1>
+                        <h1 class="text-3xl font-medium">Budget</h1>
+                        <img class="float-middle pb-8 pl-8 ml-4" src="images/Ureg-Ureg Marker.png" alt="">
                         <div class="flex  pl-4 mx-4">
                             <h4>Per Player</h4>
                             <input class="w-2/4 ml-2 border border-white bg-gray-800" type="text" name="" id="">
+
                         </div>
-                        <button class="bg-cyan-700 w-9/12 py-1 text-white  text-lg font-medium my-3">Calculate</button>
+                        <button id="btn-player-budget-calculate"
+                            class="bg-cyan-700 w-9/12 py-1 text-white  text-lg font-medium my-3">Calculate</button>
+
+                        <div class="flex pl-4 mx-4 mb-2">
+                            <h4 class="mr-3">Player Expense</h4>
+                            <h4>$<span>5000</span></h4>
+
+                        </div>
+
                         <div>
                             <div class="flex pl-4 mb-4 mx-4">
                                 <h4>Manager</h4>
@@ -118,18 +129,25 @@
                             </div>
 
 
-                            <button class="bg-cyan-700 w-9/12 py-1 text-white  text-lg font-medium my-3"> Calculate
+                            <button id="btn-total-budget-calculate"
+                                class="bg-cyan-700 w-9/12 py-1 text-white  text-lg font-medium my-3"> Calculate
                                 Total</button>
+
+
+                        </div>
+                        <div class="flex justify-between pl-4 mx-4 mb-2">
+                            <h4 class="mr-6">Total</h4>
+                            <h4>$<span>11000</span></h4>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
     </section>
     <footer class="border-t-2 border-white my-8 py-8">
         <p class="text-center text-white pt-3"><small>Copyright @ 2022 All Rights Reserved.</small> </p>
     </footer>
+    <script src="js/budget.js"></script>
 </body>
 
 </html>
