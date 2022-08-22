@@ -10,7 +10,7 @@ document.getElementById('btn-total-budget-calculate').addEventListener('click', 
     const coachbudget = getAmount('coach-budget');
     const playerAmount = playerbudget();
     const totalAmount = playerAmount + managerbudget + coachbudget;
-    console.log(totalAmount);
+
     const totalexpenses = countTotal('total-Amount');
     totalexpenses.innerText = totalAmount;
 })

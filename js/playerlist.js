@@ -16,7 +16,7 @@ function displayPlayersList(allPlayers) {
 
 function addPlayer(element) {
     const playerName = element.parentNode.children[1].innerText;
-    console.log(playerName);
+
     if (playersList.length < 5) {
         playersList.push(playerName);
         element.setAttribute('disabled', true);
